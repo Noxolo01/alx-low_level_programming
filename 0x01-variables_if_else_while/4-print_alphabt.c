@@ -1,22 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - Entry point
- * Description: 'print alphabets except q and e'
- * rEturn: Always 0
+ * main - Entry pointy
+ * REturn: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
+	char low, e, q;
 
-	while (n <= 122)
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (n == 101 || n == 133)
-		{
-			n++;
-			continue;
-		}
-		putchar('\n');
-		n++;
+	if (low != e && low != q)
+	putchar (low);
 	}
 	putchar('\n');
 	return (0);

@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'Print alphabet lowercase'
- * Return: Always 0 (Success)
- */
+ * Description: 'Print alphabets lowercase'
+ * Return: Always 0 
+ */ 
 int main(void)
 {
 	putchar(65);

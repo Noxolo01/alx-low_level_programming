@@ -2,12 +2,18 @@
 
 /**
  * main - Entry point
- * Description: 'Print alphabet lowercase'
+ *
  * Return: Always 0 
  */ 
 int main(void)
 {
-	putchar(65);
+	char alp[26] = "abcdefghijklmnopqrstuvwyxz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 	putchar('\n');
 	return (0);
 }

@@ -1,18 +1,24 @@
 #include "main.h"
-
 /**
- * print_numbers - print numbers from 0 to 9
- * Return: 0
- */
-
-int print_numbers(void)
+*more_numbers - prints numbers to 14
+*
+*Return: returns nothing
+*/
+void more_numbers(void)
 {
-	char c;
+int number1, number2;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
-	return (0);
+for (number1 = 0; number1 < 10; number1++)
+{
+for (number2 = 0; number2 <= 14; number2++)
+
+{
+if (number2 > 9)
+{
+_putchar((number2 / 10) + '0');
+}
+_putchar((number2 % 10) + '0');
+}
+_putchar(10);
+}
 }

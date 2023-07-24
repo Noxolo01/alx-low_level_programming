@@ -5,6 +5,7 @@
 /**
  * main - progress that generates random valid
  * passwords for the program 101-crackme
+ *
  * Return: Awalys 0
  */
 int main(void)
@@ -29,4 +30,6 @@ int main(void)
 			break;
 		}
 	}
+
+	return (0);
 }
